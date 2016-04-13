@@ -1,0 +1,3 @@
+# StargazerProjectLpipDownloadDemo
+StargazerProject 简略下载模块 有一点DDD的影子在里面
+最近重构的下载模块，比原来代码稍微好一点，但还是感觉很丑陋，将继续改进
