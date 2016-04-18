@@ -1,3 +1,5 @@
 # StargazerProjectLpipDownloadDemo
 StargazerProject 简略下载模块 有一点DDD的影子在里面
-最近重构的下载模块，比原来代码稍微好一点，但还是感觉很丑陋，将继续改进
+最近重构的下载模块，这一次采用新的代码创意设计了日志模块，下载模块，系统参数模块，I8n模块，File异常模块，校验模块
+
+Lpip的目的在于已非常精巧的代码实现DDD的复杂功能
