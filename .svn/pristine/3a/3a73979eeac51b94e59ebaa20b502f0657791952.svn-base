@@ -1,0 +1,30 @@
+package com.stargazerproject.parameter.test;
+
+import java.io.IOException;
+
+import org.apache.http.client.ClientProtocolException;
+import org.junit.Test;
+
+import com.stargazerproject.download.DownloadFileHttpResponse;
+import com.stargazerproject.model.I18NParameter;
+import com.stargazerproject.model.SystemParameter;
+
+public class InitializationParameterListTest {
+	@Test
+	public void testGetPath(){
+		I18NParameter i18NParameter = I18NParameter.getInstance();
+		SystemParameter systemParameter = SystemParameter.getInstance();
+
+		try {
+			DownloadFileHttpResponse d = new DownloadFileHttpResponse();
+			d.getDownloadFileHttpClient("https://avatars3.githubusercontent.com/u/9153294?v=3&s=400");
+			d.test();
+		} catch (ClientProtocolException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

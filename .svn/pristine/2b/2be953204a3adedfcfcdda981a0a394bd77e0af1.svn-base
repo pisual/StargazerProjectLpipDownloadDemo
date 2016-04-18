@@ -1,0 +1,3058 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Apr 14 01:08:55 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.http.impl.client.DefaultHttpClient category">org.apache.http.impl.client.DefaultHttpClient</td>
+<td title="Message">I/O exception (java.net.SocketException) caught when processing request: Connection reset</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.http.impl.client.DefaultHttpClient category">org.apache.http.impl.client.DefaultHttpClient</td>
+<td title="Message">Retrying request</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Apr 14 01:23:53 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.download.DownloadHanding category">com.stargazerproject.download.DownloadHanding</td>
+<td title="Message">/Users/Felixerio/Workspaces/StargazerProject/StargazerProjectLpipDownloadDemo/StargazerUIAssaultLily/DownLoadFile/160413jpg文件下载完成 校验通过</td>
+</tr>
+
+<tr>
+<td>15</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.DownloadFile category">com.stargazerproject.model.DownloadFile</td>
+<td title="Message">160413jpg 文件下载完成 校验失败 </td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Apr 14 01:26:38 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.download.DownloadHanding category">com.stargazerproject.download.DownloadHanding</td>
+<td title="Message">/Users/Felixerio/Workspaces/StargazerProject/StargazerProjectLpipDownloadDemo/StargazerUIAssaultLily/DownLoadFile/160413jpg文件下载完成 校验通过</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Apr 14 01:27:05 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.download.DownloadHanding category">com.stargazerproject.download.DownloadHanding</td>
+<td title="Message">/Users/Felixerio/Workspaces/StargazerProject/StargazerProjectLpipDownloadDemo/StargazerUIAssaultLily/DownLoadFile/160413jpg文件下载完成 校验通过</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Apr 14 01:27:21 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.download.DownloadHanding category">com.stargazerproject.download.DownloadHanding</td>
+<td title="Message">/Users/Felixerio/Workspaces/StargazerProject/StargazerProjectLpipDownloadDemo/StargazerUIAssaultLily/DownLoadFile/160413jpg文件下载完成 校验通过</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Apr 14 01:34:46 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.download.DownloadHanding category">com.stargazerproject.download.DownloadHanding</td>
+<td title="Message">/Users/Felixerio/Workspaces/StargazerProject/StargazerProjectLpipDownloadDemo/StargazerUIAssaultLily/DownLoadFile/160413jpg文件下载完成 校验通过</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Apr 14 01:35:10 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.download.DownloadHanding category">com.stargazerproject.download.DownloadHanding</td>
+<td title="Message">/Users/Felixerio/Workspaces/StargazerProject/StargazerProjectLpipDownloadDemo/StargazerUIAssaultLily/DownLoadFile/160413jpg 文件下载完成 校验通过</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 16 01:57:12 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.parameter.GetParamentByName category">com.stargazerproject.parameter.GetParamentByName</td>
+<td title="Message">获取系统参数值 I18N 失败，系统参数值为空</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 16 02:09:07 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.parameter.GetParamentByName category">com.stargazerproject.parameter.GetParamentByName</td>
+<td title="Message">获取系统参数值 I18N 失败，系统参数值为空</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 16 02:23:23 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="java.lang.Class category">java.lang.Class</td>
+<td title="Message">/Users/Felixerio/Workspaces/StargazerProject/StargazerProjectLpipDownloadDemo/StargazerUIAssaultLily/DownLoadFile/160413jpg文件下载完成 校验通过</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 16 02:25:30 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="java.lang.Class category">java.lang.Class</td>
+<td title="Message">/Users/Felixerio/Workspaces/StargazerProject/StargazerProjectLpipDownloadDemo/StargazerUIAssaultLily/DownLoadFile/160413jpg文件下载完成 校验失败</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 16 02:25:46 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="java.lang.Class category">java.lang.Class</td>
+<td title="Message">/Users/Felixerio/Workspaces/StargazerProject/StargazerProjectLpipDownloadDemo/StargazerUIAssaultLily/DownLoadFile/160413jpgFile download is complete check through</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 16 02:26:44 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="java.lang.Class category">java.lang.Class</td>
+<td title="Message"> Stargazer System Report : /Users/Felixerio/Workspaces/StargazerProject/StargazerProjectLpipDownloadDemo/StargazerUIAssaultLily/DownLoadFile/160413jpgFile download is complete check through</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 16 02:28:42 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="java.lang.Class category">java.lang.Class</td>
+<td title="Message"> Stargazer System Report : /Users/Felixerio/Workspaces/StargazerProject/StargazerProjectLpipDownloadDemo/StargazerUIAssaultLily/DownLoadFile/160413jpg : File download is complete check through</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 16 02:29:27 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.http.impl.client.DefaultHttpClient category">org.apache.http.impl.client.DefaultHttpClient</td>
+<td title="Message">I/O exception (java.net.SocketException) caught when processing request: Connection reset</td>
+</tr>
+
+<tr>
+<td>16</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.http.impl.client.DefaultHttpClient category">org.apache.http.impl.client.DefaultHttpClient</td>
+<td title="Message">Retrying request</td>
+</tr>
+
+<tr>
+<td>7185</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="java.lang.Class category">java.lang.Class</td>
+<td title="Message"> Stargazer System Report : /Users/Felixerio/Workspaces/StargazerProject/StargazerProjectLpipDownloadDemo/StargazerUIAssaultLily/DownLoadFile/160413jpg : 文件下载完成 校验通过</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 16 13:11:57 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.parameter.GetParamentByName category">com.stargazerproject.parameter.GetParamentByName</td>
+<td title="Message">获取系统参数值 I18N 失败，系统参数值为空</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 16 13:55:16 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="java.lang.Class category">java.lang.Class</td>
+<td title="Message"> Stargazer System Report : /Users/Felixerio/Workspaces/StargazerProject/StargazerProjectLpipDownloadDemo/StargazerUIAssaultLily/DownLoadFile/160413jpg : 文件下载完成 校验通过</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 16 14:05:10 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.parameter.GetParamentByName category">com.stargazerproject.parameter.GetParamentByName</td>
+<td title="Message">获取系统参数值 ENABLE_PROXY_CONNECTION 失败，系统参数值为空</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 16 14:07:38 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="java.lang.Class category">java.lang.Class</td>
+<td title="Message"> Stargazer System Report : /Users/Felixerio/Workspaces/StargazerProject/StargazerProjectLpipDownloadDemo/StargazerUIAssaultLily/DownLoadFile/160413jpg : 文件下载完成 校验通过</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 16 22:59:38 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report : 加载I18N参数: File_download_is_complete_check_through</td>
+</tr>
+
+<tr>
+<td>24</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report : 加载I18N参数: File_download_is_complete_check_failed</td>
+</tr>
+
+<tr>
+<td>24</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report : 加载I18N参数: File_download_failed</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 16 22:59:56 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report : 加载I18N参数: File_download_is_complete_check_through</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report : 加载I18N参数: File_download_is_complete_check_failed</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report : 加载I18N参数: File_download_failed</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 16 23:00:09 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report : 加载I18N参数: File_download_is_complete_check_through</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report : 加载I18N参数: File_download_is_complete_check_failed</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report : 加载I18N参数: File_download_failed</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 16 23:00:18 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report : 加载I18N参数: File_download_is_complete_check_through</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report : 加载I18N参数: File_download_is_complete_check_failed</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report : 加载I18N参数: File_download_failed</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 16 23:02:46 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report : Loading I18N Parements : File_download_is_complete_check_through</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report : Loading I18N Parements : File_download_is_complete_check_failed</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report : Loading I18N Parements : File_download_failed</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 16 23:03:19 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 16 23:17:03 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed</td>
+</tr>
+
+<tr>
+<td>21</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 16 23:29:27 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; 文件下载完成 校验通过</td>
+</tr>
+
+<tr>
+<td>18</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; 文件下载完成 校验失败</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; 文件下载失败</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; 文件下载完成 校验通过</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; 文件下载完成 校验失败</td>
+</tr>
+
+<tr>
+<td>21</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; 文件下载失败</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 16 23:29:48 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; 文件下载完成 校验通过</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; 文件下载完成 校验失败</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; 文件下载失败</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; File download is complete check through</td>
+</tr>
+
+<tr>
+<td>21</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; File download is complete check failed</td>
+</tr>
+
+<tr>
+<td>21</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; File download failed</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 16 23:57:23 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; 文件下载完成 校验通过</td>
+</tr>
+
+<tr>
+<td>18</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; 文件下载完成 校验失败</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; 文件下载失败</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>21</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>21</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>22</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>22</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>22</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>23</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>23</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Apr 17 00:01:44 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; 文件下载完成 校验通过</td>
+</tr>
+
+<tr>
+<td>27</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; 文件下载完成 校验失败</td>
+</tr>
+
+<tr>
+<td>27</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; 文件下载失败</td>
+</tr>
+
+<tr>
+<td>29</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>29</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>30</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>30</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>30</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>31</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>31</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>32</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Apr 17 00:03:36 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; 文件下载完成 校验通过</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; 文件下载完成 校验失败</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; 文件下载失败</td>
+</tr>
+
+<tr>
+<td>21</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>22</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>22</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>23</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>23</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>24</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>24</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Apr 17 00:03:48 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; 文件下载完成 校验通过</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; 文件下载完成 校验失败</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; 文件下载失败</td>
+</tr>
+
+<tr>
+<td>21</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>22</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>22</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>23</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>23</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>24</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>24</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message">目标类没有访问权限</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Apr 17 00:28:29 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; 文件下载完成 校验通过</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; 文件下载完成 校验失败</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; 文件下载失败</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Apr 17 00:29:56 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; 文件下载完成 校验通过</td>
+</tr>
+
+<tr>
+<td>18</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; 文件下载完成 校验失败</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; 文件下载失败</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Apr 17 00:30:42 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; 文件下载完成 校验通过</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; 文件下载完成 校验失败</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; 文件下载失败</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Apr 17 00:31:12 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; 文件下载完成 校验通过</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; 文件下载完成 校验失败</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; 文件下载失败</td>
+</tr>
+
+<tr>
+<td>29</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading_system_parameters key Not InitializePROXY_SERVER_IP</td>
+</tr>
+
+<tr>
+<td>30</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading_system_parameters key Not InitializePROXY_SERVER_PORT</td>
+</tr>
+
+<tr>
+<td>31</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading_system_parameters key Not InitializeBasePath</td>
+</tr>
+
+<tr>
+<td>31</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading_system_parameters key Not InitializeI18N_PROPERTIES_FILE_PATH</td>
+</tr>
+
+<tr>
+<td>32</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading_system_parameters key Not InitializeCONNECTION_TIMEOUT_PERIOD</td>
+</tr>
+
+<tr>
+<td>32</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading_system_parameters key Not InitializeENABLE_PROXY_CONNECTION</td>
+</tr>
+
+<tr>
+<td>32</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading_system_parameters key Not InitializeI18N</td>
+</tr>
+
+<tr>
+<td>33</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading_system_parameters key Not InitializeDOWNLOAD_FILE_PATH</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Apr 17 00:32:47 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; 文件下载完成 校验通过</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; 文件下载完成 校验失败</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; 文件下载失败</td>
+</tr>
+
+<tr>
+<td>28</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading_system_parameters key Not InitializePROXY_SERVER_IP</td>
+</tr>
+
+<tr>
+<td>28</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading_system_parameters key Not InitializePROXY_SERVER_PORT</td>
+</tr>
+
+<tr>
+<td>29</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading_system_parameters key Not InitializeBasePath</td>
+</tr>
+
+<tr>
+<td>29</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading_system_parameters key Not InitializeI18N_PROPERTIES_FILE_PATH</td>
+</tr>
+
+<tr>
+<td>30</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading_system_parameters key Not InitializeCONNECTION_TIMEOUT_PERIOD</td>
+</tr>
+
+<tr>
+<td>30</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading_system_parameters key Not InitializeENABLE_PROXY_CONNECTION</td>
+</tr>
+
+<tr>
+<td>30</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading_system_parameters key Not InitializeI18N</td>
+</tr>
+
+<tr>
+<td>31</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading_system_parameters key Not InitializeDOWNLOAD_FILE_PATH</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Apr 17 00:34:15 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; 文件下载完成 校验通过</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; 文件下载完成 校验失败</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; 文件下载失败</td>
+</tr>
+
+<tr>
+<td>21</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; File download is complete check through</td>
+</tr>
+
+<tr>
+<td>22</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; File download is complete check failed</td>
+</tr>
+
+<tr>
+<td>23</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; File download failed</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Apr 17 00:34:27 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; 文件下载完成 校验通过</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; 文件下载完成 校验失败</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; 文件下载失败</td>
+</tr>
+
+<tr>
+<td>21</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; File download is complete check through</td>
+</tr>
+
+<tr>
+<td>22</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; File download is complete check failed</td>
+</tr>
+
+<tr>
+<td>22</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; File download failed</td>
+</tr>
+
+<tr>
+<td>31</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading_system_parameters key Not InitializePROXY_SERVER_IP</td>
+</tr>
+
+<tr>
+<td>32</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading_system_parameters key Not InitializePROXY_SERVER_PORT</td>
+</tr>
+
+<tr>
+<td>32</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading_system_parameters key Not InitializeBasePath</td>
+</tr>
+
+<tr>
+<td>33</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading_system_parameters key Not InitializeI18N_PROPERTIES_FILE_PATH</td>
+</tr>
+
+<tr>
+<td>33</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading_system_parameters key Not InitializeCONNECTION_TIMEOUT_PERIOD</td>
+</tr>
+
+<tr>
+<td>34</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading_system_parameters key Not InitializeENABLE_PROXY_CONNECTION</td>
+</tr>
+
+<tr>
+<td>34</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading_system_parameters key Not InitializeI18N</td>
+</tr>
+
+<tr>
+<td>34</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading_system_parameters key Not InitializeDOWNLOAD_FILE_PATH</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Apr 17 00:36:40 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; 文件下载完成 校验通过</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : Loading_system_parameters -&gt; 记载系统参数</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; 文件下载完成 校验失败</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; 文件下载失败</td>
+</tr>
+
+<tr>
+<td>21</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; File download is complete check through</td>
+</tr>
+
+<tr>
+<td>21</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : Loading_system_parameters -&gt; Loading system parameters</td>
+</tr>
+
+<tr>
+<td>22</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; File download is complete check failed</td>
+</tr>
+
+<tr>
+<td>22</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; File download failed</td>
+</tr>
+
+<tr>
+<td>24</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading system parametersPROXY_SERVER_IP</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading system parametersPROXY_SERVER_PORT</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading system parametersBasePath</td>
+</tr>
+
+<tr>
+<td>26</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading system parametersI18N_PROPERTIES_FILE_PATH</td>
+</tr>
+
+<tr>
+<td>26</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading system parametersCONNECTION_TIMEOUT_PERIOD</td>
+</tr>
+
+<tr>
+<td>26</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading system parametersENABLE_PROXY_CONNECTION</td>
+</tr>
+
+<tr>
+<td>27</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading system parametersI18N</td>
+</tr>
+
+<tr>
+<td>27</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading system parametersDOWNLOAD_FILE_PATH</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Apr 17 00:37:13 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; 文件下载完成 校验通过</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : Loading_system_parameters -&gt; 记载系统参数</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; 文件下载完成 校验失败</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; 文件下载失败</td>
+</tr>
+
+<tr>
+<td>21</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; File download is complete check through</td>
+</tr>
+
+<tr>
+<td>21</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : Loading_system_parameters -&gt; Loading system parameters</td>
+</tr>
+
+<tr>
+<td>22</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; File download is complete check failed</td>
+</tr>
+
+<tr>
+<td>22</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; File download failed</td>
+</tr>
+
+<tr>
+<td>24</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading system parameters -&gt; PROXY_SERVER_IP</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading system parameters -&gt; PROXY_SERVER_PORT</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading system parameters -&gt; BasePath</td>
+</tr>
+
+<tr>
+<td>26</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading system parameters -&gt; I18N_PROPERTIES_FILE_PATH</td>
+</tr>
+
+<tr>
+<td>26</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading system parameters -&gt; CONNECTION_TIMEOUT_PERIOD</td>
+</tr>
+
+<tr>
+<td>27</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading system parameters -&gt; ENABLE_PROXY_CONNECTION</td>
+</tr>
+
+<tr>
+<td>27</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading system parameters -&gt; I18N</td>
+</tr>
+
+<tr>
+<td>27</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading system parameters -&gt; DOWNLOAD_FILE_PATH</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Apr 17 00:38:09 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; 文件下载完成 校验通过</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : Loading_system_parameters -&gt; 记载系统参数</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; 文件下载完成 校验失败</td>
+</tr>
+
+<tr>
+<td>21</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; 文件下载失败</td>
+</tr>
+
+<tr>
+<td>23</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 记载系统参数 -&gt; PROXY_SERVER_IP</td>
+</tr>
+
+<tr>
+<td>23</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 记载系统参数 -&gt; PROXY_SERVER_PORT</td>
+</tr>
+
+<tr>
+<td>24</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 记载系统参数 -&gt; BasePath</td>
+</tr>
+
+<tr>
+<td>24</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 记载系统参数 -&gt; I18N_PROPERTIES_FILE_PATH</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 记载系统参数 -&gt; CONNECTION_TIMEOUT_PERIOD</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 记载系统参数 -&gt; ENABLE_PROXY_CONNECTION</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 记载系统参数 -&gt; I18N</td>
+</tr>
+
+<tr>
+<td>26</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 记载系统参数 -&gt; DOWNLOAD_FILE_PATH</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Apr 17 00:38:42 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; 文件下载完成 校验通过</td>
+</tr>
+
+<tr>
+<td>18</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : Loading_system_parameters -&gt; 加载系统参数</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; 文件下载完成 校验失败</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; 文件下载失败</td>
+</tr>
+
+<tr>
+<td>21</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 加载系统参数 -&gt; PROXY_SERVER_IP</td>
+</tr>
+
+<tr>
+<td>22</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 加载系统参数 -&gt; PROXY_SERVER_PORT</td>
+</tr>
+
+<tr>
+<td>22</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 加载系统参数 -&gt; BasePath</td>
+</tr>
+
+<tr>
+<td>23</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 加载系统参数 -&gt; I18N_PROPERTIES_FILE_PATH</td>
+</tr>
+
+<tr>
+<td>23</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 加载系统参数 -&gt; CONNECTION_TIMEOUT_PERIOD</td>
+</tr>
+
+<tr>
+<td>24</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 加载系统参数 -&gt; ENABLE_PROXY_CONNECTION</td>
+</tr>
+
+<tr>
+<td>24</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 加载系统参数 -&gt; I18N</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 加载系统参数 -&gt; DOWNLOAD_FILE_PATH</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Apr 17 00:39:45 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; 文件下载完成 校验通过</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : Loading_system_parameters -&gt; 加载系统参数</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; 文件下载完成 校验失败</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; 文件下载失败</td>
+</tr>
+
+<tr>
+<td>22</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 加载系统参数 -&gt; PROXY_SERVER_IP:10.0.1.11</td>
+</tr>
+
+<tr>
+<td>22</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 加载系统参数 -&gt; PROXY_SERVER_PORT:808</td>
+</tr>
+
+<tr>
+<td>23</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 加载系统参数 -&gt; BasePath:/Users/Felixerio/Workspaces/StargazerProject/StargazerProjectLpipDownloadDemo/StargazerUIAssaultLily/</td>
+</tr>
+
+<tr>
+<td>23</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 加载系统参数 -&gt; I18N_PROPERTIES_FILE_PATH:com.stargazerproject.parameter.StargazerI18N</td>
+</tr>
+
+<tr>
+<td>24</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 加载系统参数 -&gt; CONNECTION_TIMEOUT_PERIOD:20000</td>
+</tr>
+
+<tr>
+<td>24</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 加载系统参数 -&gt; ENABLE_PROXY_CONNECTION:flase</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 加载系统参数 -&gt; I18N:CHINA</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 加载系统参数 -&gt; DOWNLOAD_FILE_PATH:/Users/Felixerio/Workspaces/StargazerProject/StargazerProjectLpipDownloadDemo/StargazerUIAssaultLily/DownLoadFile/</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Apr 17 00:40:12 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; 文件下载完成 校验通过</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : Loading_system_parameters -&gt; 加载系统参数</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; 文件下载完成 校验失败</td>
+</tr>
+
+<tr>
+<td>21</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; 文件下载失败</td>
+</tr>
+
+<tr>
+<td>22</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; File download is complete check through</td>
+</tr>
+
+<tr>
+<td>22</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : Loading_system_parameters -&gt; Loading system parameters</td>
+</tr>
+
+<tr>
+<td>23</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; File download is complete check failed</td>
+</tr>
+
+<tr>
+<td>23</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; File download failed</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading system parameters -&gt; PROXY_SERVER_IP:10.0.1.11</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading system parameters -&gt; PROXY_SERVER_PORT:808</td>
+</tr>
+
+<tr>
+<td>26</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading system parameters -&gt; BasePath:/Users/Felixerio/Workspaces/StargazerProject/StargazerProjectLpipDownloadDemo/StargazerUIAssaultLily/</td>
+</tr>
+
+<tr>
+<td>26</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading system parameters -&gt; I18N_PROPERTIES_FILE_PATH:com.stargazerproject.parameter.StargazerI18N</td>
+</tr>
+
+<tr>
+<td>27</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading system parameters -&gt; CONNECTION_TIMEOUT_PERIOD:20000</td>
+</tr>
+
+<tr>
+<td>27</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading system parameters -&gt; ENABLE_PROXY_CONNECTION:flase</td>
+</tr>
+
+<tr>
+<td>28</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading system parameters -&gt; I18N:CHINA</td>
+</tr>
+
+<tr>
+<td>28</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * Loading system parameters -&gt; DOWNLOAD_FILE_PATH:/Users/Felixerio/Workspaces/StargazerProject/StargazerProjectLpipDownloadDemo/StargazerUIAssaultLily/DownLoadFile/</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Apr 17 00:40:30 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_through -&gt; 文件下载完成 校验通过</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : Loading_system_parameters -&gt; 加载系统参数</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_is_complete_check_failed -&gt; 文件下载完成 校验失败</td>
+</tr>
+
+<tr>
+<td>21</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.I18NParameter category">com.stargazerproject.model.I18NParameter</td>
+<td title="Message"> Stargazer System Report * Loading I18N Parements : File_download_failed -&gt; 文件下载失败</td>
+</tr>
+
+<tr>
+<td>23</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 加载系统参数 -&gt; PROXY_SERVER_IP:10.0.1.11</td>
+</tr>
+
+<tr>
+<td>24</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 加载系统参数 -&gt; PROXY_SERVER_PORT:808</td>
+</tr>
+
+<tr>
+<td>24</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 加载系统参数 -&gt; BasePath:/Users/Felixerio/Workspaces/StargazerProject/StargazerProjectLpipDownloadDemo/StargazerUIAssaultLily/</td>
+</tr>
+
+<tr>
+<td>24</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 加载系统参数 -&gt; I18N_PROPERTIES_FILE_PATH:com.stargazerproject.parameter.StargazerI18N</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 加载系统参数 -&gt; CONNECTION_TIMEOUT_PERIOD:20000</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 加载系统参数 -&gt; ENABLE_PROXY_CONNECTION:flase</td>
+</tr>
+
+<tr>
+<td>26</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 加载系统参数 -&gt; I18N:CHINA</td>
+</tr>
+
+<tr>
+<td>26</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.stargazerproject.model.SystemParameter category">com.stargazerproject.model.SystemParameter</td>
+<td title="Message"> Stargazer System Report * 加载系统参数 -&gt; DOWNLOAD_FILE_PATH:/Users/Felixerio/Workspaces/StargazerProject/StargazerProjectLpipDownloadDemo/StargazerUIAssaultLily/DownLoadFile/</td>
+</tr>

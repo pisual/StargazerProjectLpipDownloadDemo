@@ -1,0 +1,20 @@
+package com.stargazerproject.model.test;
+
+import org.junit.Test;
+
+import com.stargazerproject.model.BigcgFiles;
+import com.stargazerproject.model.FilesType;
+
+public class BigcgFilesTest {
+	
+	@Test
+	public void CreratBigcgFilesTest(){
+		BigcgFiles bigcgFiles = new BigcgFiles("name",FilesType.jpg, 1, "location", "url", "md5", 2034, "tags");
+	}
+	
+	@Test
+	public void DownLoadSuccessTest(){
+	}
+	
+	
+}

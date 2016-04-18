@@ -1,0 +1,27 @@
+package com.stargazerproject.model.test;
+
+import org.junit.Test;
+
+import com.stargazerproject.model.BigcgFiles;
+import com.stargazerproject.model.Downloader;
+import com.stargazerproject.model.FilesType;
+import com.stargazerproject.model.I18NParameter;
+import com.stargazerproject.model.SystemParameter;
+
+public class BigcgFilesTest {
+	
+	@Test
+	public void CreratBigcgFilesTest(){
+		SystemParameter.getInstance();
+		I18NParameter.getInstance();
+		BigcgFiles bigcgFiles = new BigcgFiles("name",FilesType.jpg, 1, System.getProperty("user.dir")+"/StargazerUIAssaultLily/DownLoadFile/1604132.jpg", "http://www.hacg.li/wp/wp-content/uploads/2016/04/160413.jpg", "c8de39c66b29889421d17828fb5970cf", 2034, "tags");
+		bigcgFiles.download(new Downloader(20000));
+		bigcgFiles.download(new Downloader(20000,"10.0.1.28",8080));
+	}
+	
+	@Test
+	public void DownLoadSuccessTest(){
+	}
+	
+	
+}

@@ -1,0 +1,28 @@
+package com.stargazerproject.download;
+
+import com.stargazerproject.log.CoreLogManaged;
+import com.stargazerproject.parameter.GetParamentByName;
+import com.stargazerproject.util.FileMD5;
+
+public class DownloadHanding {
+	/**保存下载文件的地址**/
+	private static final String DOWNLOAD_FILE_PATH = GetParamentByName.GetParamentByKeyInSystemMemory("DOWNLOAD_FILE_PATH");
+	
+	public static Boolean downloadFileAndCheckMd5(String url, String targetFile, String originalMd5){
+		targetFile = DOWNLOAD_FILE_PATH +targetFile;
+		boolean downloadResult = DownloadMethod.normalDownLoadFileMethod(url, targetFile);
+		if(Boolean.TRUE.equals(downloadResult)){
+			if(originalMd5.equals(FileMD5.getFileMD5String(targetFile))){
+				CoreLogManaged.INFO(DownloadHanding.class,targetFile + " : " +GetParamentByName.GetParamentByKeyInSystemMemory("File_download_is_complete_check_through"));
+				return Boolean.TRUE;
+			}
+			else{
+				CoreLogManaged.ERROR(DownloadHanding.class,targetFile + GetParamentByName.GetParamentByKeyInSystemMemory("File_download_is_complete_check_failed"));
+			}
+		}
+		else{
+			CoreLogManaged.ERROR(DownloadHanding.class,targetFile + GetParamentByName.GetParamentByKeyInSystemMemory("File_download_failed"));
+		}
+		return Boolean.FALSE;
+	}
+}

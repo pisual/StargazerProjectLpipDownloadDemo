@@ -1,0 +1,109 @@
+package com.stargazerproject.model;
+
+import java.util.Enumeration;
+import java.util.Locale;
+import java.util.ResourceBundle;
+import java.util.concurrent.ExecutionException;
+
+import com.google.common.cache.CacheBuilder;
+import com.google.common.cache.CacheLoader;
+import com.google.common.cache.LoadingCache;
+import com.stargazerproject.log.CoreLogManaged;
+import com.stargazerproject.model.shared.SystemCache;
+import com.stargazerproject.parameter.SwitchI18NLocale;
+import com.stargazerproject.util.ParameterCalibration;
+
+/**
+ * 系统参数领域对象
+ * 
+ * **/
+public class I18NParameter implements SystemCache {
+	private static final long serialVersionUID = 1279337243360495543L;
+
+	/** 系统I18N参数列表 **/
+	private static LoadingCache<String, String> parameters;
+	/**系统I8N初始化 指定地域数据 **/
+	private static Location i18N = Location.CHINA;
+	/**初始化I18N资源包路径**/
+	private final static String propertiesPath = "com.stargazerproject.parameter.StargazerI18N";
+	/** 单例 **/
+	private static I18NParameter i8NParameter;
+
+	public static final I18NParameter getInstance() {
+		if (null == i8NParameter) {
+			i8NParameter = new I18NParameter();
+		}
+		return i8NParameter;
+	}
+
+	private I18NParameter() {
+		parameters = callableCached();
+		initializationParametersFromPackageInfo();
+	}
+	
+	/**指定初始化**/
+	public I18NParameter I18N(Location i18NLocation){
+		ParameterCalibration.basicParameterCalibration(i18NLocation);
+		i18N = i18NLocation;
+		parameters = callableCached();
+		initializationParametersFromPackageInfo();
+		return i8NParameter;
+	}
+	
+	private void initializationParametersFromPackageInfo(){
+		ParameterCalibration.basicParameterCalibration(propertiesPath);
+		Locale local = SwitchI18NLocale.getI18NLocale(i18N.toString());
+		ResourceBundle resourceBundle = ResourceBundle.getBundle(propertiesPath,local);
+		Enumeration<String> enumeration = resourceBundle.getKeys();
+		while(enumeration.hasMoreElements()){
+			String key  = enumeration.nextElement();
+			String value = resourceBundle.getObject(key).toString();
+			set(key, value);
+			CoreLogManaged.INFO(this, "Loading I18N Parements : " + key+" -> " + value);
+		}
+	}
+
+	private static LoadingCache<String, String> callableCached() {
+		LoadingCache<String, String> cache = CacheBuilder.newBuilder()
+				.maximumSize(100).build(new CacheLoader<String, String>() {
+					@Override
+					public String load(String key) {
+						return key + " key Not Initialize";
+					}
+				});
+		return cache;
+	}
+
+	/** 根据指定名称获取String类型结果 **/
+	@Override
+	public String getString(String key) {
+		String value = null;
+		try {
+			value = parameters.get(key);
+		} catch (ExecutionException e) {
+			e.printStackTrace();
+		}
+		return value;
+	}
+
+	/** 根据指定名称获取int形参数，如果没有初使参数，返回一个初始化int 0 **/
+	@Override
+	public Integer getInteger(String key) {
+		int intResulr = 0;
+		try {
+			intResulr = Integer.parseInt(parameters.get(key).trim());
+		} catch (NumberFormatException e) {
+			e.printStackTrace();
+		} catch (ExecutionException e) {
+			e.printStackTrace();
+		} finally {
+			intResulr = 0;
+		}
+		return intResulr;
+	}
+
+	@Override
+	public void set(String key, String value) {
+		parameters.put(key, value);
+	}
+}

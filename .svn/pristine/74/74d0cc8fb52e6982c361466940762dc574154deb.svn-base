@@ -1,0 +1,83 @@
+package com.stargazerproject.model;
+
+import com.stargazerproject.download.DownloadMethod;
+import com.stargazerproject.log.CoreLogManaged;
+import com.stargazerproject.util.FileMD5;
+import com.stargazerproject.util.ParameterCalibration;
+
+
+public class Downloader {
+	
+	/**代理服务器的IP**/
+	private static String PROXY_SERVER_IP;
+	/**代理服务器的端口**/
+	private static Integer PROXY_SERVER_PORT;
+	/**连接超时等待时间 毫秒**/
+	private static Integer CONNECTION_TIMEOUT_PERIOD;
+	/**代理检测**/
+	private Boolean isProxyConnected;
+	
+	/**单例**/
+	private static I18NParameter i18NParameter;
+	
+	/**不使用代理服务器**/
+	public Downloader(Integer timeout) {
+		ParameterCalibration.basicParameterCalibration(timeout);
+		i18NParameter = I18NParameter.getInstance();
+		CONNECTION_TIMEOUT_PERIOD = timeout;
+		this.isProxyConnected = Boolean.FALSE;
+	}
+	
+	/**使用代理服务器**/
+	public Downloader(Integer timeout, String proxyServerIP, Integer proxyServerPort) {
+		ParameterCalibration.basicParameterCalibration(proxyServerIP, proxyServerPort, timeout);
+		i18NParameter = I18NParameter.getInstance();
+		PROXY_SERVER_IP = proxyServerIP;
+		PROXY_SERVER_PORT = proxyServerPort;
+		CONNECTION_TIMEOUT_PERIOD = timeout;
+		this.isProxyConnected = Boolean.TRUE;
+	}
+	
+	public void download(String url, String targetFile, String originalMd5){
+		if(isProxyConnected.equals(Boolean.TRUE)){
+			downloadFileUseProxyAndCheckMd5(url, targetFile, originalMd5);
+		}
+		else{
+			downloadFileNotuseProxyAndCheckMd5(url, targetFile, originalMd5);
+		}
+	}
+	
+	public Boolean downloadFileNotuseProxyAndCheckMd5(String url, String targetFile, String originalMd5){
+		boolean downloadResult = new DownloadMethod(CONNECTION_TIMEOUT_PERIOD).normalDownLoadFileMethod(url, targetFile);
+		if(Boolean.TRUE.equals(downloadResult)){
+			if(originalMd5.equals(FileMD5.getFileMD5String(targetFile))){
+				CoreLogManaged.INFO(Downloader.class,targetFile + " : " + i18NParameter.getString("File_download_is_complete_check_through"));
+				return Boolean.TRUE;
+			}
+			else{
+				CoreLogManaged.ERROR(Downloader.class,targetFile + " : " + i18NParameter.getString("File_download_is_complete_check_failed"));
+			}
+		}
+		else{
+			CoreLogManaged.ERROR(Downloader.class,targetFile +" : "+ i18NParameter.getString("File_download_failed"));
+		}
+		return Boolean.FALSE;
+	}
+	
+	public Boolean downloadFileUseProxyAndCheckMd5(String url, String targetFile, String originalMd5){
+		boolean downloadResult = new DownloadMethod(PROXY_SERVER_IP,PROXY_SERVER_PORT,CONNECTION_TIMEOUT_PERIOD).normalDownLoadFileMethod(url, targetFile);
+		if(Boolean.TRUE.equals(downloadResult)){
+			if(originalMd5.equals(FileMD5.getFileMD5String(targetFile))){
+				CoreLogManaged.INFO(Downloader.class,targetFile + " : " + i18NParameter.getString("File_download_is_complete_check_through"));
+				return Boolean.TRUE;
+			}
+			else{
+				CoreLogManaged.ERROR(Downloader.class,targetFile + " : " + i18NParameter.getString("File_download_is_complete_check_failed"));
+			}
+		}
+		else{
+			CoreLogManaged.ERROR(Downloader.class,targetFile + " : " + i18NParameter.getString("File_download_failed"));
+		}
+		return Boolean.FALSE;
+	}
+}

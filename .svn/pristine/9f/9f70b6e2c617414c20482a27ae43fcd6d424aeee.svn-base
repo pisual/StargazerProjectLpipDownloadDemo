@@ -1,0 +1,13 @@
+package com.stargazerproject.model.test;
+
+import org.junit.Test;
+
+import com.stargazerproject.model.I18NParameter;
+import com.stargazerproject.model.Location;
+
+public class I18NParameterTest {
+	@Test
+	public void initParements(){
+		I18NParameter.getInstance().I18N(Location.US);
+	}
+}

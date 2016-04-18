@@ -1,0 +1,98 @@
+package com.stargazerproject.model;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map.Entry;
+import java.util.concurrent.ExecutionException;
+
+import com.google.common.cache.CacheBuilder;
+import com.google.common.cache.CacheLoader;
+import com.google.common.cache.LoadingCache;
+import com.stargazerproject.log.CoreLogManaged;
+import com.stargazerproject.model.shared.SystemCache;
+import com.stargazerproject.parameter.GetParamentByReflect;
+
+/**
+ * 系统参数领域对象
+ * 
+ * **/
+public class SystemParameter implements SystemCache {
+	private static final long serialVersionUID = 1279337243360495543L;
+
+	/**系统参数列表 **/
+	private static LoadingCache<String, String> parameters;
+	/**系统参数PackageInfo加载路径**/
+	private final static String PackageInfo  = "com.stargazerproject.parameter.StargazerProjectParameter";
+	/** SystemParameter 单例 **/
+	private static SystemParameter systemParameter;
+	/** I18NParameter 单例 **/
+	private static I18NParameter i18NParameter;
+
+	public static final SystemParameter getInstance() {
+		if (null == systemParameter) {
+			systemParameter = new SystemParameter();
+		}
+		return systemParameter;
+	}
+
+	private SystemParameter() {
+		i18NParameter = I18NParameter.getInstance();
+		parameters = callableCached();
+		initializationParametersFromPackageInfo();
+	}
+	
+	private void initializationParametersFromPackageInfo(){
+		try {
+		HashMap<String,String> valueField = GetParamentByReflect.getParamentByReflectFromPackageInfo(PackageInfo);
+		Iterator<Entry<String, String>> iter = valueField.entrySet().iterator();
+	    while (iter.hasNext()) {
+		Entry<String, String> entry = iter.next();
+		set(entry.getKey(), entry.getValue());
+		CoreLogManaged.INFO(this, i18NParameter.getString("Loading_system_parameters") + " -> "+ entry.getKey() + ":" + entry.getValue());
+	    }
+		 } catch (IllegalArgumentException | IllegalAccessException e) {
+			 CoreLogManaged.ERROR(this, "输入参数类型不合法");
+	     }
+	}
+
+	private static LoadingCache<String, String> callableCached() {
+		LoadingCache<String, String> cache = CacheBuilder.newBuilder()
+				.maximumSize(100).build(new CacheLoader<String, String>() {
+					@Override
+					public String load(String key) {
+						return key + " key Not Initialize";
+					}
+				});
+		return cache;
+	}
+
+	/** 根据指定名称获取String类型结果 **/
+	@Override
+	public String getString(String key) {
+		String value = null;
+		try {
+			value = parameters.get(key);
+		} catch (ExecutionException e) {
+			e.printStackTrace();
+		}
+		return value;
+	}
+
+	/** 根据指定名称获取int形参数，如果没有初使参数，返回一个初始化int **/
+	public Integer getInteger(String key) {
+		int intResulr = 0;
+		try {
+			intResulr = Integer.parseInt(parameters.get(key).trim());
+		} catch (NumberFormatException e) {
+			e.printStackTrace();
+		} catch (ExecutionException e) {
+			e.printStackTrace();
+		}
+		return intResulr;
+	}
+
+	@Override
+	public void set(String key, String value) {
+		parameters.put(key, value);
+	}
+}

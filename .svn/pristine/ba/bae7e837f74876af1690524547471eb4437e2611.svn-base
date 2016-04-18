@@ -1,0 +1,34 @@
+package com.stargazerproject.log;
+
+import org.apache.log4j.Logger;
+
+/**核心日志托管**/
+public final class CoreLogManaged {
+	/** 日志初始化 **/
+	static Logger logger;
+	
+	public static void DEBUG(Object object,String message){
+		logger = Logger.getLogger(object.getClass().getName());
+		logger.debug(message);
+	}
+	
+	public static void INFO(Object object,String message){
+		logger = Logger.getLogger(object.getClass().getName());
+		logger.info(" Stargazer System Report * " + message);
+	}
+	
+	public static void WARN(Object object,String message){
+		logger = Logger.getLogger(object.getClass().getName());
+		logger.warn(message);
+	}
+	
+	public static void ERROR(Object object,String message){
+		logger = Logger.getLogger(object.getClass().getName());
+		logger.error(message);
+	}
+	
+	public static void FATAL(Object object,String message){
+		logger = Logger.getLogger(object.getClass().getName());
+		logger.fatal(message);
+	}
+}

@@ -1,0 +1,13 @@
+package com.stargazerproject.parameter.test;
+
+import java.lang.reflect.Field;
+
+import org.junit.Test;
+
+import com.stargazerproject.parameter.GetParamentByReflect;
+
+public class GetParamentByReflectTest {
+	@Test
+	public void testGetParamentByReflectFromCLass(){
+	}
+}
